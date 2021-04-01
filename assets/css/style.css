@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*this is how you comment */
+  font-family: Helvetica, Arial, sans-serif;
+  color: #39a6b2;
+}
+
+header {
+  padding: 0 0 25px;
+  background-color: grey;
+  display: flex;
+  height: 150px;
+  width: auto;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+#headerBackground {
+  width: 300px;
+  height: 50px;
+  border: 1px blue;
+  background-color: lightblue;
+
+  margin: 0;
+  padding-left: 30px;
+  text-align: right;
+
+  /* justify-content: end;
+  align-content: flex-end;*/
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: grey;
+  margin: 0;
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: lightblue;
+  border-bottom: 4px solid lightblue;
+}
+
+header nav {
+  margin: 7px 0;
+  padding: 0 10px 5px 600px;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 0;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.test {
+  background-image: url("../images/moon.jpg");
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/*.test div {
+  width: 400px;
+  height: 50px;
+  border: 1px blue;
+  background-color: lightblue;
+  display: inline;
+
+  margin: 30px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.test h2 {
+  display: inline;
+  justify-content: flex-end;
+  align-content: flex-end;
+  padding: 200px 100px 0 10px;
+  text-align: left;
+}*/
+
+.test h2 {
+  text-align: center;
+  color: grey;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  font-size: 35px;
+}
+.test h2 span {
+  background-color: lightblue;
+}
