@@ -5,18 +5,18 @@
 }
 
 body {
-  /*this is how you comment */
   font-family: Helvetica, Arial, sans-serif;
   color: #39a6b2;
 }
 
+/*Header*/
 header {
   padding: 0 0 25px;
   background-color: grey;
   display: flex;
   height: 150px;
   width: auto;
-  justify-content: end;
+
   align-items: flex-end;
 }
 
@@ -25,13 +25,9 @@ header {
   height: 50px;
   border: 1px blue;
   background-color: lightblue;
-
   margin: 0;
   padding-left: 30px;
   text-align: right;
-
-  /* justify-content: end;
-  align-content: flex-end;*/
 }
 
 header h1 {
@@ -50,7 +46,10 @@ header a {
 
 header nav {
   margin: 7px 0;
-  padding: 0 10px 5px 600px;
+  padding-top: 0;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 350px;
 }
 
 header nav ul li {
@@ -64,7 +63,9 @@ header nav ul li a {
   font-size: 22px;
 }
 
-.test {
+/*Image and subtitle below Header*/
+
+.subtitle {
   background-image: url("../images/moon.jpg");
   height: 250px;
   background-size: cover;
@@ -74,33 +75,436 @@ header nav ul li a {
   align-items: flex-end;
 }
 
-/*.test div {
-  width: 400px;
-  height: 50px;
-  border: 1px blue;
-  background-color: lightblue;
-  display: inline;
-
-  margin: 30px;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.test h2 {
-  display: inline;
-  justify-content: flex-end;
-  align-content: flex-end;
-  padding: 200px 100px 0 10px;
-  text-align: left;
-}*/
-
-.test h2 {
+.subtitle h2 {
   text-align: center;
   color: grey;
   padding-bottom: 25px;
   padding-right: 100px;
   font-size: 35px;
 }
-.test h2 span {
+.subtitle h2 span {
   background-color: lightblue;
+}
+
+/*About Me*/
+.aboutMe {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.aboutMeContent {
+  flex: 1;
+  margin: 20px;
+}
+.flex-row {
+  display: flex;
+}
+
+.flex-row h2 {
+  text-align: right;
+  padding-left: 50px;
+  font-size: 40px;
+  padding-right: 10px;
+  color: grey;
+}
+
+.flex-row p {
+  border-left: 4px solid grey;
+  padding-left: 15px;
+  color: grey;
+}
+
+/*Work*/
+.working {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-margin {
+  margin: 20px;
+}
+
+.flexingRow {
+  display: flex;
+}
+
+.flexingRow h2 {
+  text-align: right;
+  padding-left: 70px;
+  font-size: 40px;
+  padding-right: 7px;
+  color: grey;
+}
+
+.work-content {
+  border-left: 4px solid grey;
+  padding-right: 15px;
+}
+/*Project 1*/
+.project1 img {
+  color: grey;
+  width: 100%;
+  height: auto;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0;
+  border: 5px solid lightblue;
+}
+
+.proj1Title {
+  position: absolute;
+  bottom: -570px;
+  left: 220px;
+  text-align: center;
+  background-color: lightblue;
+  color: grey;
+}
+
+.proj1Title h3 span {
+  font-size: xx-large;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  margin: 0;
+  padding-left: 10px;
+  color: grey;
+}
+
+/*Applies to Project 2-5*/
+.workImage {
+  color: grey;
+  width: 520px;
+  height: 200px;
+  padding-left: 0;
+  border: 5px solid lightblue;
+}
+
+.project2,
+.project3,
+.project4,
+.project5 {
+  margin-right: 5px;
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover,
+.project5:hover {
+  opacity: 0.5;
+  background-color: peachpuff;
+}
+
+.projTitle2 h4,
+projTitle3 h4,
+projTitle4 h4,
+projTitle5 h4 {
+  font-size: medium;
+  margin: 0;
+  padding-top: 0;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  color: grey;
+}
+
+.projTitle2 h3 span,
+.projTitle3 h3 span,
+.projTitle4 h3 span,
+.projTitle5 h3 span {
+  font-size: xx-large;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  margin: 0;
+  padding-left: 10px;
+  color: grey;
+}
+
+/*Project 2*/
+.projTitle2 {
+  position: absolute;
+  bottom: -830px;
+  left: 220px;
+  text-align: center;
+  background-color: lightblue;
+}
+/*Project 3*/
+.projTitle3 {
+  position: absolute;
+  bottom: -830px;
+  left: 744px;
+  text-align: center;
+  background-color: lightblue;
+}
+/*Project 4*/
+.projTitle4 {
+  position: absolute;
+  bottom: -1045px;
+  left: 220px;
+  text-align: center;
+  background-color: lightblue;
+}
+/*Project 5*/
+.projTitle5 {
+  position: absolute;
+  bottom: -1045px;
+  left: 744px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+/*Contact Me*/
+.contactMe {
+  flex: 1;
+  margin: 0;
+}
+.contact-flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.rowflex {
+  display: flex;
+}
+
+.rowflex h2 {
+  text-align: right;
+  padding-left: 7px;
+  font-size: 40px;
+  padding-right: 7px;
+  color: grey;
+  border-right: 4px solid grey;
+}
+
+.rowflex nav {
+  display: inline;
+  margin: 7px 0;
+  padding-top: 35px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+}
+
+.rowflex nav ul li {
+  display: inline;
+  padding: 0;
+}
+
+.rowflex nav ul li a {
+  margin: 0 30px;
+  text-decoration: none;
+  color: grey;
+  font-size: 25px;
+  border-bottom: 4px solid grey;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  #headerBackground {
+    width: 200px;
+    height: 40px;
+    margin: 0;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  header nav {
+    margin: 7px 0;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 80%;
+    margin: 0;
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #about-me {
+    text-align: left;
+  }
+
+  .flex-row p {
+    font-size: 10px;
+  }
+
+  .subtitle {
+    width: 50%;
+  }
+
+  .flex-row h2 {
+    font-size: 20px;
+    padding-left: 22px;
+  }
+
+  .flexingRow h2 {
+    padding-left: 32px;
+    font-size: 20px;
+  }
+  .project1 {
+    padding: 0;
+    margin: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .proj1Title {
+    position: absolute;
+    bottom: 290px;
+    left: 135px;
+    text-align: center;
+    background-color: lightblue;
+    color: grey;
+  }
+
+  .proj1Title h3 span {
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    margin: 0;
+    padding-left: 10px;
+    color: grey;
+  }
+  .proj1Title h4 {
+    font-size: 10px;
+  }
+
+  .projTitle2 {
+    bottom: 90px;
+    left: 135px;
+  }
+  .projTitle2 h3 span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .projTitle2 h4 {
+    font-size: 10px;
+    margin: 0;
+    padding-top: 0;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    color: grey;
+  }
+
+  .projTitle3 {
+    bottom: 90px;
+    left: 300px;
+  }
+
+  .projTitle3 h3 span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .projTitle3 h4 {
+    font-size: 10px;
+  }
+
+  .projTitle4 {
+    bottom: -104px;
+    left: 135px;
+  }
+
+  .projTitle4 h3 span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .projTitle4 h4 {
+    font-size: 10px;
+  }
+
+  .projTitle5 {
+    bottom: -104px;
+    left: 300px;
+  }
+
+  .projTitle5 h3 span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .projTitle5 h4 {
+    font-size: 10px;
+  }
+
+  .work-content {
+    padding: 0;
+  }
+
+  .project1 img {
+    width: 320px;
+  }
+
+  .workImage {
+    width: 157px;
+    height: 180px;
+    margin-left: 5px;
+  }
+
+  .rowflex h2 {
+    padding-left: 7px;
+    font-size: 20px;
+  }
+
+  .rowflex h2 {
+    text-align: right;
+    padding-left: 7px;
+    font-size: 20px;
+    padding-right: 7px;
+    color: grey;
+    border-right: 4px solid grey;
+  }
+
+  .rowflex nav {
+    margin: 7px 0;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+  }
+
+  .rowflex nav ul li {
+    display: inline;
+    padding: 0;
+  }
+
+  .rowflex nav ul li a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+    border-bottom: 4px solid grey;
+  }
 }
