@@ -226,7 +226,7 @@ projTitle5 h4 {
 /*Project 2*/
 .projTitle2 {
   position: absolute;
-  bottom: -830px;
+  bottom: -815px;
   left: 220px;
   text-align: center;
   background-color: lightblue;
@@ -234,7 +234,7 @@ projTitle5 h4 {
 /*Project 3*/
 .projTitle3 {
   position: absolute;
-  bottom: -830px;
+  bottom: -815px;
   left: 744px;
   text-align: center;
   background-color: lightblue;
@@ -242,7 +242,7 @@ projTitle5 h4 {
 /*Project 4*/
 .projTitle4 {
   position: absolute;
-  bottom: -1045px;
+  bottom: -1030px;
   left: 220px;
   text-align: center;
   background-color: lightblue;
@@ -250,7 +250,7 @@ projTitle5 h4 {
 /*Project 5*/
 .projTitle5 {
   position: absolute;
-  bottom: -1045px;
+  bottom: -1030px;
   left: 744px;
   text-align: center;
   background-color: lightblue;
