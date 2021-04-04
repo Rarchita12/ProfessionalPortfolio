@@ -1,4 +1,4 @@
-##Archita Professional Portfolio
+## Archita Professional Portfolio
 ## Purpose
 
 Archita Racherla's professional portfolio where potential employers can learn more about me, view my work, resume and contact information.
