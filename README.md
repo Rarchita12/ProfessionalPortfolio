@@ -1,4 +1,4 @@
-## Archita Professional Portfolio
+## Archita's Professional Portfolio
 ## Purpose
 
 Archita Racherla's professional portfolio where potential employers can learn more about me, view my work, resume and contact information.
@@ -13,11 +13,11 @@ Archita Racherla's professional portfolio where potential employers can learn mo
 
 https://rarchita12.github.io/ProfessionalPortfolio/
 
-![](assets/images/website1.JPG)
+![](assets\images\website1.JPG)
 
-![](assets/images/website2.JPG)
+![](assets\images\website2.JPG)
 
-![](assets/images/website3.JPG)
+![](assets\images\website3.JPG)
 
 # Contribution
 
