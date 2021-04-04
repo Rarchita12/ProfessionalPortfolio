@@ -200,9 +200,9 @@ header nav ul li a {
 }
 
 .projTitle2 h4,
-projTitle3 h4,
-projTitle4 h4,
-projTitle5 h4 {
+.projTitle3 h4,
+.projTitle4 h4,
+.projTitle5 h4 {
   font-size: medium;
   margin: 0;
   padding-top: 0;
