@@ -13,11 +13,11 @@ Archita Racherla's professional portfolio where potential employers can learn mo
 
 https://rarchita12.github.io/ProfessionalPortfolio/
 
-![](assets\images\website1.JPG)
+![](assets/images/website1.JPG)
 
-![](assets\images\website2.JPG)
+![](assets/images/website2.JPG)
 
-![](assets\images\website3.JPG)
+![](assets/images/website3.JPG)
 
 # Contribution
 
