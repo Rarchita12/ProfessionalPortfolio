@@ -158,7 +158,7 @@ header nav ul li a {
 
 .proj1Title {
   position: absolute;
-  bottom: -570px;
+  bottom: -300px;
   left: 220px;
   text-align: center;
   background-color: lightblue;
@@ -379,7 +379,7 @@ header nav ul li a {
   }
   .proj1Title {
     position: absolute;
-    bottom: 290px;
+    bottom: -300px;
     left: 135px;
     text-align: center;
     background-color: lightblue;
