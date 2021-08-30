@@ -234,7 +234,7 @@ header nav ul li a {
 /*Project 3*/
 .projTitle3 {
   position: absolute;
-  bottom: -815px;
+  bottom: -550px;
   left: 744px;
   text-align: center;
   background-color: lightblue;
@@ -242,7 +242,7 @@ header nav ul li a {
 /*Project 4*/
 .projTitle4 {
   position: absolute;
-  bottom: -1030px;
+  bottom: -750px;
   left: 220px;
   text-align: center;
   background-color: lightblue;
@@ -250,7 +250,7 @@ header nav ul li a {
 /*Project 5*/
 .projTitle5 {
   position: absolute;
-  bottom: -1030px;
+  bottom: -750px;
   left: 744px;
   text-align: center;
   background-color: lightblue;
